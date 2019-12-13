@@ -4,32 +4,3 @@
     background-size: cover;
     height: 100vh;
 }
-
-nav {
-    background-color: black;
-}
-
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: blue;
-}
-
-li a {
-    font-size: 20px;
-    color: rgb(214, 180, 180);
-}
-
-nav ul li a:hoover {
-    text-decoration: none;
-}
-
-li {
-    display: inline;
-    justify-content: space-between;
-}
-
-h1 {
-    text-align: center;
-    padding-top: 20%;
-}
