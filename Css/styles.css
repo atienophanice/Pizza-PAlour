@@ -30,8 +30,7 @@ li {
     justify-content: space-between;
 }
 
-
-/* h1 {
+h1 {
     text-align: center;
     padding-top: 100px;
     font-size: 60px;
@@ -42,7 +41,8 @@ h2 {
     text-align: center;
 }
 
-.aboutus {
+
+/* .aboutus {
     display: flex;
     justify-content: space-around;
     margin-right: 40px;
@@ -60,10 +60,9 @@ h2 {
 
 .menu {
     background-color: coral;
-}
- */
+} */
 
-
+*/
 /* #About {
     display: flex;
     flex-direction: row;
