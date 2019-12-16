@@ -6,57 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pizza Palour</title>
-    <link href="Css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="Css/styles.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="Js/scripts.js"></script>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <div class="Home">
-            <nav>
-                <ul>
 
-                    <li><a href=#index.html>Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#Order">Order</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
+    <div class="Home">
+        <nav>
+            <ul>
 
-
-                </ul>
-            </nav>
-
-            <h1>Welcome to<br> Pizza Palour</h1>
-        </div>
-        <div class="About" id="About">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>About</h2>
-                    <p>Pizza palour is a place where you can get pizza at very affordable prices <br><br> And can also order onine and get your order at your door step according to your prefference</p>
-
-                    <img src="https://media0.giphy.com/media/tJUGTceQyR6Pm/giphy.gif?cid=790b76116105c7f30a04367100cb1d58244d1505874f8926&rid=giphy.gif">
-
-                </div>
-                <div class="Menu" id="Menu">
-                    <div class="col-md-4">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpCBVLG6SNvJJgvTdUENuUJGqPbKxK8ET2yIe76r_mADI-EXI&s">
-                        <p>Small</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxzILBmhthVr0nZT7t0E-00au6LgaKjaF9OJ8qqRwiGCezAh-&s">
-                        <p>medium</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgDlhsaf6DRLzFYU3rMYpOPAvR4yDhN4Lsy1jXzQdJohE_05Kog&s">
-                        <p>Large</p>
-
-                    </div>
-                </div>
+                <li><a href=#index.html>Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#Order">Order</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
 
 
+            </ul>
+        </nav>
+
+        <h1>Welcome to<br> Pizza Palour</h1>
+    </div>
+    <div class="About" id="About">
+        <h2>About</h2>
+        <div class="aboutus">
+
+            <p>Pizza palour is a place where you can get<br> pizza at very affordable prices <br><br> And can also order onine and get your order <br>at your door step according to your prefference</p>
+            <div class="img1">
+                <img src="https://media0.giphy.com/media/tJUGTceQyR6Pm/giphy.gif?cid=790b76116105c7f30a04367100cb1d58244d1505874f8926&rid=giphy.gif">
             </div>
         </div>
     </div>
+    </div>
+    <div class="pizzasize" id="Menu">
+        <h2>Menu</h2>
+        <div class="size">
+
+            <div class="img2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpCBVLG6SNvJJgvTdUENuUJGqPbKxK8ET2yIe76r_mADI-EXI&s">
+                <p>Small</p>
+            </div>
+
+
+            <div class="img3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxzILBmhthVr0nZT7t0E-00au6LgaKjaF9OJ8qqRwiGCezAh-&s">
+                <p>medium</p>
+            </div>
+
+
+            <div class="img4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgDlhsaf6DRLzFYU3rMYpOPAvR4yDhN4Lsy1jXzQdJohE_05Kog&s">
+                <p>Large</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="order" id="order">
+        <h2 class="text-center" id="order">Order </h2>
+        <div class="form-group row">
+            <label for="Flavour"><br>Pick your pizza Flavour:</label><br><br>
+            <select class="custom-select custom-select-md mb-3 flavour" id="flavour" required>
+            <option value="vegtikka">Veg Tikka</option>
+            <option value="chickentikka">Chicken Tikka</option>
+             <option value="periperi">Peri-Peri Chicken</option>
+             <option value="bbq">BBQ Steak</option>
+            <option value="boerewors">Boerewors</option>
+              <option value="hawaiian">Hawaiian</option>
+              <option value="mushroom">Chicken and Mushroom</option>
+             <option value="regina">Regina Pizza</option>
+              </select>
+            <br>
+            <label for="Size"><br>Chose your preferred Size:</label><br><br>
+            <select class="custom-select custom-select-md mb-3" id="size" required>
+         <option label="regular size" value="650">Regular</option>
+           <option label="medium size" value="850">Medium</option>
+         <option label="large size" value="1300">Large</option>
+          </select><br>
+            <label for="Crust"><br>Choose your favorite Crust:</label><br><br>
+            <select class="custom-select custom-select-md mb-3" id="crust" required>
+             <option value="thin">Thin Crust @ Ksh. 100</option>
+           <option value="thick">Thick Crust @ Ksh. 150</option>
+           <option value="flatbread">FlatBread Crust @ sh. 180</option>
+             <option value="custom">Custom Crust @ sh. 280</option>
+            </select><br>
+            <label for="toppings"><br>Select Your favourite Toppings</label><br><br>
+            <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                        <option value="tomato">Tomato @ sh. 80</option>
+                        <option value="onions">Onions @ sh. 80</option>
+                        <option value="mushroom">Mushroom @ sh. 80</option>
+                        <option value="greenpepper">Green Pepper @ sh. 80</option>
+                        <option value=""></option>
+                        <option value="olives">Olives @ sh. 120</option>
+                        <option value="pineapple">Pineapple @ sh. 120</option>
+                        <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                        <option value="macon">Macon @ sh. 120</option>
+                        <option value="mince">Mince @ sh. 120</option>
+                        <option value=""></option>
+                        <option value="beef">Beef Peperoni @ sh. 170</option>
+                        <option value="chicken">Periperi Chicken @ sh. 170</option>
+                    </select>
+            </form><br><br>
+            <div id="quant">
+                <label for="quantity">Quantinty</label><br>
+                <input id="quantity" type="number" value="1"><br>
+            </div><br><br>
+            <a href="#summary">
+                <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Checkout
+                    </button>
+            </a>
+
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- <footer>
+        <h2>Contacts</h2>
+        <p>For more information you contact us through</p>
+    </footer> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="Js/scripts.js"></script>
-    </div>
 </body>
 
 </html>
