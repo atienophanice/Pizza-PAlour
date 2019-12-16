@@ -7,6 +7,7 @@
 
 nav {
     background-color: black;
+    justify-content: space-around;
 }
 
 nav ul li a {
@@ -24,5 +25,61 @@ nav ul li a:hoover {
     text-decoration: none;
 }
 
-
+li {
+    display: inline-block;
+    justify-content: space-between;
 }
+
+
+/* h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-around;
+}
+
+.order {
+    text-align: center;
+    background-color: grey;
+}
+
+.menu {
+    background-color: coral;
+}
+ */
+
+
+/* #About {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-one {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-two {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-three {
+    display: flex;
+    flex-direction: row;
+} */
