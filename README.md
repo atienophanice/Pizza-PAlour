@@ -7,11 +7,12 @@ This project has details about pizza and different kind of crustvand toppings of
 
 ## Project live site
 This is the live . Click for the demo https://atienophanice.github.io/Pizza-PAlour/
-Setup instructions
+
+## Setup instructions
 Clone the program from Online repo Click on the green button to clone or download
 
 ## Technologies Used
-HTML CSS Bootsrap JQuery Javascript
+HTML <br>CSS <br>Bootsrap <br>JQuery <br>Javascript
 
 ## Support and contact details
 contact me @ atienophanice1@gmail.com
