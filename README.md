@@ -1,5 +1,5 @@
 ## PIZZA PALOUR
-This is a pizza website used to order and get ones delicacies at your door step
+This is a pizza website used to order and get ones delicacies at your door step<br>
 By PHANICE OWINO
 
 ## Description
