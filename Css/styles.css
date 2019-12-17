@@ -1,81 +1,84 @@
-.Home {
-    background-image: url("https://images.pexels.com/photos/166451/pexels-photo-166451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-nav {
-    background-color: black;
-    justify-content: space-around;
-}
-
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: blue;
-}
-
-li a {
-    font-size: 20px;
-    color: rgb(214, 180, 180);
-}
-
-nav ul li a:hoover {
-    text-decoration: none;
-}
-
-li {
-    display: inline-block;
-    justify-content: space-between;
-}
-
-h1 {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 60px;
-    text-transform: uppercase;
-}
-
-h2 {
-    text-align: center;
-}
-
-.aboutus {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 40px;
-}
-
-.size {
-    display: flex;
-    justify-content: space-around;
-}
-
-.order {
-    text-align: center;
-    background-color: grey;
-}
-
-.menu {
-    background-color: coral;
-}
-
-footer {
-    text-align: center;
-    background-color: cadetblue;
-}
-
-#Menu {
-    background-image: url("https://images.pexels.com/photos/132193/pexels-photo-132193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-body {
-    font-family: 'Architects Daughter', cursive;
-}
-
-p {
-    font-size: 20px;
-}
+                .Home {
+                    background-image: url("https://images.pexels.com/photos/166451/pexels-photo-166451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 100vh;
+                }
+                
+                nav {
+                    background-color: black;
+                    justify-content: space-around;
+                }
+                
+                nav ul li a {
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    color: blue;
+                }
+                
+                li a {
+                    font-size: 20px;
+                    color: rgb(214, 180, 180);
+                }
+                
+                nav ul li a:hoover {
+                    text-decoration: none;
+                }
+                
+                li {
+                    display: inline-block;
+                    justify-content: space-between;
+                }
+                
+                h1 {
+                    text-align: center;
+                    text-shadow: 3px 3px 5px white;
+                    padding-top: 100px;
+                    font-size: 60px;
+                    text-transform: uppercase;
+                }
+                
+                h2 {
+                    text-align: center;
+                    text-shadow: 3px 3px 5px white;
+                    font-size: 50px;
+                }
+                
+                .aboutus {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-right: 40px;
+                }
+                
+                .size {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .order {
+                    text-align: center;
+                    background-color: grey;
+                }
+                
+                .menu {
+                    background-color: coral;
+                }
+                
+                footer {
+                    text-align: center;
+                    background-color: cadetblue;
+                }
+                
+                #Menu {
+                    background-image: url("https://images.pexels.com/photos/132193/pexels-photo-132193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                body {
+                    font-family: 'Architects Daughter', cursive;
+                }
+                
+                p {
+                    font-size: 20px;
+                }
