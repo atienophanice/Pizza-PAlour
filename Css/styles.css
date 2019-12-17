@@ -65,3 +65,17 @@ footer {
     text-align: center;
     background-color: cadetblue;
 }
+
+#Menu {
+    background-image: url("https://images.pexels.com/photos/132193/pexels-photo-132193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+p {
+    font-size: 20px;
+}
