@@ -43,7 +43,7 @@ $(document).ready(function() {
         }
         z
         //a constructor to create objects/instances of a user's orders
-        function Order(flavor, size, crust, toppings, quantity) {
+        function Order(fzlavor, size, crust, toppings, quantity) {
             this.newFlavour = flavour;
             this.newSize = size;
             this.newCrust = crust;
